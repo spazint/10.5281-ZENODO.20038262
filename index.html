@@ -30,17 +30,29 @@ html
         h2 {
             color: #2c3e50;
         }
-        .download {
+        .download-btn {
             background: #2c3e50;
             color: white;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
             display: inline-block;
-            margin: 20px 0;
+            margin: 20px 20px 20px 0;
         }
-        .download:hover {
+        .download-btn:hover {
             background: #1a252f;
+        }
+        .drive-btn {
+            background: #0b57d0;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px 20px 20px 0;
+        }
+        .drive-btn:hover {
+            background: #0842a0;
         }
         hr {
             margin: 30px 0;
@@ -99,7 +111,9 @@ html
         <p><strong>ORCID:</strong> 0009-0005-4567-9701</p>
         <p><strong>DOI полной версии:</strong> 10.5281/zenodo.19864750</p>
 
-        <a class="download" href="https://doi.org/10.5281/zenodo.19864750" target="_blank">📄 Скачать полную документацию (232 стр.)</a>
+        <!-- Обновленные кнопки для скачивания и чтения на Google Drive -->
+        <a class="drive-btn" href="https://drive.google.com/file/d/1ci8E2ykJ1jKV8z-8mglCclKD7bu-SONy/view" target="_blank">📖 Читать полностью (на Google Диске)</a>
+        <a class="download-btn" href="https://github.com/spazint/10.5281-ZENODO.20038262/raw/main/Пояснительная%20записка%20ПЭМ1-2.pdf" target="_blank">📄 Скачать полную документацию (232 стр.)</a>
 
         <hr>
 
@@ -122,7 +136,7 @@ html
         <h3>Краткое изложение (мини-ПЭММ)</h3>
         <p>4 страницы, которые передают смысл ПЭММ целиком:</p>
 
-        <!-- Здесь будет встроенный PDF. Сначала загрузите файл ПЭММ-мини-RU.pdf в репозиторий -->
+        <!-- Встроенный просмотр мини-ПЭММ -->
         <div class="pdf-viewer">
             <iframe src="ПЭММ-мини-RU.pdf" title="ПЭММ-мини"></iframe>
         </div>
